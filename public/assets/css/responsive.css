@@ -1,0 +1,246 @@
+@media (max-width: 1200px) {
+  nav .main-menu .logo,
+  header .block-2,
+  header .block-1 {
+    display: none;
+  }
+  header .block-3 {
+    background: #333 !important;
+    z-index: 2;
+    width: 11%;
+  }
+  header .overlay {
+    width: 100%;
+    left: 0;
+  }
+  header .text-slider-wrapper {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 50%;
+    left: 10%;
+  }
+  header .slider-control {
+    left: 18%;
+  }
+  nav .main-menu .links .item:first-child {
+    border-left: none;
+    margin-left: 0;
+  }
+  nav .main-menu .links .item {
+    width: 25%;
+    margin: auto;
+  }
+  header .text-slide h1 {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 992px) {
+  nav .container {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .vehicles-details-section .slideshow .item .details {
+    padding: 0 0 2rem 2rem;
+  }
+  nav .top-menu .close-menu-area {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    z-index: 1;
+  }
+  nav .main-menu .links .extra-links {
+    right: initial;
+    left: 1.5rem;
+  }
+  nav .top-menu span.close-guide {
+    display: none;
+  }
+  .event-area .event-slider .slider-for .item {
+    padding-top: 50%;
+  }
+}
+@media (max-width: 900px) {
+  nav svg.svg-mobile-hidden {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  nav .main-menu {
+    margin-top: 2rem;
+  }
+  nav .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    text-align: left !important;
+  }
+  nav .main-menu .links li {
+    font-size: 1.3rem;
+    margin: .2rem !important;
+  }
+  nav .main-menu .links .item {
+    display: block !important;
+    width: 100%;
+    height: auto !important;
+    border-right: none;
+  }
+  nav {
+    height: 100vh !important;
+    overflow-y: auto;
+  }
+  nav .top-menu .close-menu-area .close-icon {
+    width: 1.8rem;
+  }
+  nav .main-menu .links .extra-links {
+    position: static;
+    left: initial;
+    width: 100%;
+    padding-left: .5rem;
+  }
+  nav .main-menu .links .extra-links ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+  nav .main-menu .links .extra-links li {
+    margin: 0;
+  }
+  nav .main-menu .links .extra-links .dropdown-list-item ion-icon {
+    right: -2rem;
+  }
+  .news-slider .box {
+    width: 75% !important;
+    margin: auto;
+    display: block !important;
+  }
+  header .slider-control {
+      left: 25%;
+      bottom: 20%;
+  }
+  header .slider-control button {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .search-bar input:focus, button:focus + input {
+    width: 170px;
+  }
+  .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    font-size: .8rem;
+  }
+  .events .events-box {
+    padding-top: 65%;
+  }
+  .events .slider-control button {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .services-section .service {
+    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .details-offer-sec .slider-imgs .item img {
+    width: 75% !important;
+  }
+  .details-offer-sec .offer-slider-container .prevButton {
+    left: 0;
+  }
+  .details-offer-sec .offer-slider-container .nextButton {
+    right: 0;
+  }
+  .blog-details-box .img {
+    float: none;
+    margin: auto;
+    border-radius: 0;
+    width: 100%;
+    height: 250px;
+  }
+  .videos-gallery .video-box,
+  .images-gallery .image-box {
+    width: 75%;
+    margin: auto;
+  }
+}
+@media (max-width: 650px) {
+  header .fixed-nav-bar .language-box {
+    left: 30%;
+  }
+  .block-slider-section .main-slider-controllers button {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.3rem;
+  }
+  header .text-slider-wrapper {
+    width: 80%;
+  }
+  .vehicles-details-section .slideshow .controllers {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .block-slider-section .main-slider-controllers {
+    margin-top: 1.5rem;
+  }
+  .blog-section .blog,
+  .events-list .our-event {
+    width: 75%;
+    margin: auto;
+  }
+}
+@media (max-width: 550px) {
+  header .fixed-nav-bar .social-links {
+    display: none;
+  }
+  header .fixed-nav-bar .language-box {
+    left: 47%;
+  }
+}
+@media (max-width: 615px) {
+  .block-slider-section .section-title h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .view-gallery .view-gallery-slider .item {
+    width: 100% !important;
+    padding-top: 100%;
+  }
+}
+@media (max-width: 420px) {
+  header .fixed-nav-bar .foton-main-logo {
+    width: 5rem;
+  }
+  footer .rights p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 380px) {
+  .search-bar input:focus, button:focus + input {
+    width: 100px;
+  }
+  .vehicles-details-section .slideshow .item .img {
+    width: 300px;
+  }
+  .events-list .our-event {
+    width: 100%;
+  }
+  .videos-gallery .video-box,
+  .images-gallery .image-box {
+    width: 100%;
+  }
+}
